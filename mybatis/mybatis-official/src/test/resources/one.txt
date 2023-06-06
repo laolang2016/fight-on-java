@@ -1,0 +1,12 @@
+id ,
+name ,
+parent_id ,
+manager_user_id ,
+sort ,
+create_by ,
+create_time ,
+update_by ,
+update_time ,
+remark ,
+deleted ,
+version

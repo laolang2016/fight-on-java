@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.laolang.mybatisstudy.mapper.DeptMapper">
+    <select id="getById" resultType="com.laolang.mybatisstudy.entity.Dept">
+        select
+        id ,
+        name ,
+        parent_id parentId,
+        manager_user_id managerUserId,
+        sort ,
+        create_by createBy,
+        create_time createTime,
+        update_by updateBy,
+        update_time updateTime,
+        remark ,
+        deleted ,
+        version
+        from dept
+        where id = #{id} and deleted = 0
+    </select>
+</mapper>
