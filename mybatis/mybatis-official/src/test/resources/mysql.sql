@@ -16,3 +16,16 @@ create table dept(
 INSERT INTO mybatis_study.dept
 (id, name, parent_id, manager_user_id, sort, create_by, create_time, update_by, update_time, remark, deleted, version)
 VALUES(1, '开发部', 0, 1, 1, '1', '2023-06-06 13:23:59', NULL, '2023-06-06 13:23:59', NULL, 0, 1);
+
+
+CREATE TABLE `user` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '自增ID',
+  `userId` varchar(9) DEFAULT NULL COMMENT '用户ID',
+  `userHead` varchar(16) DEFAULT NULL COMMENT '用户头像',
+  `createTime` timestamp NULL DEFAULT NULL COMMENT '创建时间',
+  `updateTime` timestamp NULL DEFAULT NULL COMMENT '更新时间',
+  `userName` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+INSERT INTO `user` VALUES (1, '10001', '1_04', '2022-04-13 00:00:00', '2022-04-13 00:00:00', '小傅哥');
