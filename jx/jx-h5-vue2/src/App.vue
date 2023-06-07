@@ -12,7 +12,9 @@
   min-height: 100%;
   background-color: #efefef;
 }
-
+html{
+  font-size: 100px;
+}
 html,body{
   min-height: 100%;
 }
