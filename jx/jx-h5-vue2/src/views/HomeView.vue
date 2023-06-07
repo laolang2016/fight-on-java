@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    jx
+  <div>
+    <van-button type="info">hello, jx</van-button>
   </div>
 </template>
 
