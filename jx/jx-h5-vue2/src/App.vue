@@ -9,9 +9,11 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  background-color: #efefef;
 }
 
-body{
-  background-color: #efefef;
+html,body{
+  min-height: 100%;
 }
 </style>
