@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vant from 'vant'
+import 'reset-css'
 import 'vant/lib/index.css'
 import App from './App.vue'
 import router from './router'

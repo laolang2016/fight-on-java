@@ -13,7 +13,7 @@
   background-color: #efefef;
 }
 html{
-  font-size: 100px;
+  font-size: 100px !important;
 }
 html,body{
   min-height: 100%;
